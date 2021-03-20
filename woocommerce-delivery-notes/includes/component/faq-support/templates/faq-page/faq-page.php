@@ -55,7 +55,7 @@
 </style>
 
 <div class="main-panel">
-    <h3>Frequently Asked Questions for <?php echo $ts_plugin_name; ?> Plugin</h3>
+    <h3><?php _e( 'Frequently Asked Questions for', 'woocommerce-delivery-notes'); ?> <?php echo $ts_plugin_name; ?> Plugin</h3>
     <button class="faq-ts-accordion"><span class="dashicons dashicons-editor-help"></span><strong><?php echo $ts_faq[1]['question'] ?></strong></button>
     <div class="panel">
         <p><?php echo $ts_faq[1]['answer'] ?></p>
@@ -108,7 +108,7 @@
 
 <div class="support-panel">
     <p style="font-size: 19px">
-        If your queries are not answered here, you can send an email directly to <strong>support@tychesoftwares.freshdesk.com</strong> for some additional requirements. 
+        <?php _e( 'If your queries are not answered here, you can send an email directly to <strong>support@tychesoftwares.freshdesk.com</strong> for some additional requirements.', 'woocommerce-delivery-notes'); ?>
     </p>
 </div>
 <script>
